@@ -1,0 +1,25 @@
+{
+  "title": "Primi Balance",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to primiapp.cz",
+        "description": "Enter your credentials"
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password",
+      "cannot_connect": "Failed to connect to primiapp.cz"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "threshold": "Low balance threshold",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Primi Zůstatek",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Připojení k primiapp.cz",
+        "description": "Zadejte přihlašovací údaje"
+      }
+    },
+    "error": {
+      "invalid_auth": "Neplatné jméno nebo heslo",
+      "cannot_connect": "Selhalo přihlášení k primiapp.cz"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "threshold": "Hranice nízkého zůstatku",
+          "scan_interval": "Interval aktualizace (minuty)"
+        }
+      }
+    }
+  }
+}
