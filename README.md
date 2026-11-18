@@ -1,7 +1,5 @@
 # Primi Balance
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-
 A Home Assistant custom integration for monitoring your account balance(s) on [primiapp.cz](https://primiapp.cz) (Primirest).
 
 ## Features
@@ -13,12 +11,12 @@ A Home Assistant custom integration for monitoring your account balance(s) on [p
 
 ## Installation
 
-### HACS (recommended)
+### Marketplace (called HACS in Home Assistant prior to 2026.11) (recommended)
 
-1. Make sure [HACS](https://hacs.xyz/) is installed.
-2. In Home Assistant, go to **HACS → Integrations → ⋮ → Custom repositories**.
+1. With Home Assistant prior to 2026.11 make sure [HACS](https://hacs.xyz/) Integration is installed, then look for HACS instead of Marketplace in the following steps.
+2. In Home Assistant, go to **Settings → Marketplace → ⋮ → Custom repositories**.
 3. Add this repository URL with category **Integration**.
-4. Find **Primi Balance** in HACS and click **Download**.
+4. Find **Primi Balance** in Marketplace and click **Install**.
 5. Restart Home Assistant.
 
 ### Manual
